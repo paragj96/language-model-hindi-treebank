@@ -3,7 +3,7 @@ import ssfAPI
 
 def getWords():
 
-    inputPath = '/home/aishwary/Desktop/ltrc/training'
+    inputPath = '{path to training folder}/training'
 
     fileList = ssfAPI.folderWalk(inputPath)
 
